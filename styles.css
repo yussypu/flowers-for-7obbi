@@ -14,7 +14,7 @@ body {
 .flower-container {
   width: 150px;
   height: 150px;
-  background-image: url('flower.png'); /* Replace with your flower image */
+  background-image: url('flower.jpg'); /* Replace with your flower image */
   background-size: cover;
   animation: growFlowers 5s ease-in-out forwards;
 }
