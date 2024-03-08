@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdf3f0; /* Light pink background */
+}
+
+.flower-container {
+  width: 150px;
+  height: 150px;
+  background-image: url('flower.png'); /* Replace with your flower image */
+  background-size: cover;
+  animation: growFlowers 5s ease-in-out forwards;
+}
+
+@keyframes growFlowers {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
